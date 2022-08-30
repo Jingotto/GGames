@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto Regular"), local("Verlag-Regular"),
+    url("../assets/fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto Bold"), local("Roboto-Bold"),
+    url("../assets/fonts/Roboto-Bold.ttf") format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assets/fonts/Montserrat-Regular.ttf") format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assets/fonts/Montserrat-ExtraBold.ttf") format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+// @font-face {
+//   font-family: "Raleway";
+//   src: local("Raleway Regular"), local("Raleway-Regular"),
+//     url("../fonts/Raleway-Regular.ttf") format("truetype");
+//   font-weight: 400;
+//   font-style: normal;
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: "Verlag";
+//   src: local("Verlag Book"), local("Verlag-Book"),
+//     url("../fonts/Verlag-Book.otf") format("opentype");
+//   font-weight: 400;
+//   font-style: normal;
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: "Verlag";
+//   src: local("Verlag Bold"), local("Verlag-Bold"),
+//     url("../fonts/Verlag-Bold.otf") format("opentype");
+//   font-weight: 700;
+//   font-style: normal;
+//   font-display: swap;
+// }

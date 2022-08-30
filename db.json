@@ -1,0 +1,77 @@
+{
+    "games": [{
+            "id": 1,
+            "BgImgUrl": "https://wallpapercave.com/wp/wp1886393.jpg",
+            "gameIcon": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/46b63d3c-ae67-464c-9a37-670829b2a157/d5w1tai-11e25437-f859-4f02-85d4-734c7575564d.png/v1/fill/w_256,h_256,strp/dayz___icon_by_blagoicons_d5w1tai-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjU2IiwicGF0aCI6IlwvZlwvNDZiNjNkM2MtYWU2Ny00NjRjLTlhMzctNjcwODI5YjJhMTU3XC9kNXcxdGFpLTExZTI1NDM3LWY4NTktNGYwMi04NWQ0LTczNGM3NTc1NTY0ZC5wbmciLCJ3aWR0aCI6Ijw9MjU2In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.dso8CXp5OUekiuUgm-tXfGplRlsWT8Qm6zffe4eUIqQ",
+            "name": "DayZ",
+            "nameRu": "ДэйЗ",
+            "tagsRu": ["Дей", "Дэй", "Дейз"],
+            "dataBase": [{}],
+            "articles": [{
+                "id": 100,
+                "articleHeader": "DayZ: Предметы",
+                "articleBody": "Оружие, Бронь, Еда"
+            }]
+        },
+        {
+            "id": 2,
+            "BgImgUrl": "https://wallpaperaccess.com/full/2002264.png",
+            "gameIcon": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/46b63d3c-ae67-464c-9a37-670829b2a157/da3m1p2-984b8628-aef9-46ec-9a2f-67c63c174031.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQ2YjYzZDNjLWFlNjctNDY0Yy05YTM3LTY3MDgyOWIyYTE1N1wvZGEzbTFwMi05ODRiODYyOC1hZWY5LTQ2ZWMtOWEyZi02N2M2M2MxNzQwMzEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.vfqJnBlx7NUnIMZrgSuC_8QvDdoBwt7-hV5uOAEOVn8",
+            "name": "Rust",
+            "nameRu": "Раст",
+            "tagsRu": ["Руст"],
+            "dataBase": [{}],
+            "articles": [{
+                "id": 200,
+                "articleHeader": "Rust: Крафт",
+                "articleBody": "Оружие, Бронь, Еда"
+            }]
+        },
+
+        {
+            "id": 3,
+            "BgImgUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202010/2310/Gfk92dSnTMsOgqoItWgkrtmT.png",
+            "gameIcon": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/88b6f848-7f22-44b7-a036-8e65d20a4e3d/dau8y5x-43245dc7-7d5c-45de-a9f8-4091ac176870.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzg4YjZmODQ4LTdmMjItNDRiNy1hMDM2LThlNjVkMjBhNGUzZFwvZGF1OHk1eC00MzI0NWRjNy03ZDVjLTQ1ZGUtYTlmOC00MDkxYWMxNzY4NzAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.CBN6rgy0wPbnZ-K9XVyc3wwxKrbnVwvIjuKmQ3a82vo",
+            "name": "Conan Exile",
+            "nameRu": "Конан Изгнанник",
+            "dataBase": [{}],
+            "articles": [{
+                "id": 300,
+                "articleHeader": "Conan Exile: Крафт",
+                "articleBody": "Оружие, Бронь, Алхимия"
+            }]
+        },
+
+        {
+            "id": 4,
+            "BgImgUrl": "https://images6.alphacoders.com/101/1012987.jpg",
+            "gameIcon": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/3367fa99-0ba6-454c-b947-683f1a9f896d/ddx6og2-42452595-5cf1-4373-a313-4540833c3c31.png",
+            "name": "Monster Hunter World",
+            "nameRu": "Монстер Хантер",
+            "tagsRu": ["Монстр", "Хант"],
+            "dataBase": [{}],
+            "articles": [{
+                "id": 400,
+                "articleHeader": "Monster Hunter World: Крафт",
+                "articleBody": "Оружие, Бронь, Еда"
+            }]
+        },
+
+        {
+            "id": 5,
+            "BgImgUrl": "https://images8.alphacoders.com/410/410343.jpg",
+            "gameIcon": "https://icons.iconarchive.com/icons/3xhumed/mega-games-pack-39/256/Age-of-Conan-Hyborian-Adventures-4-icon.png",
+            "name": "Age of Conan: Unchained",
+            "nameRu": "Век Конана",
+            "dataBase": [{}],
+            "articles": [{
+                "id": 500,
+                "articleHeader": "Age of Conan: Локации",
+                "articleBody": "Хайбория"
+            }]
+        }
+    ]
+
+
+
+}

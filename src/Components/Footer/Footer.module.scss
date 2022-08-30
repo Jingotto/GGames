@@ -1,0 +1,23 @@
+@import "../../styles/mixins.scss";
+@import "../../styles/variables.scss";
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  min-height: 80px;
+  background-color: $footerAndHeaderBgColor;
+  box-shadow: 2px -6px 10px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.contactInformation {
+  @include flex(column, center, flex-start, nowrap);
+
+  padding-top: 15px;
+  padding-left: 20px;
+  color: $mainTextColor;
+}

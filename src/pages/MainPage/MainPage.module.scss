@@ -1,0 +1,85 @@
+@import "../../styles/mixins.scss";
+@import "../../styles/variables.scss";
+
+// $mainTextColor: #FCEBDC;
+// $favoriteGameTextColor: #EFD3BC;
+
+.mainWrapper {
+  @include flex(column, normal, center, nowrap);
+
+  // min-height: 100vh;
+  // background-image: linear-gradient(#1d4350, #a43931);
+}
+
+.aboutSection {
+  max-width: 1500px;
+  min-height: 350px;
+  width: 100%;
+  padding: 0 10px;
+  color: $mainTextColor;
+  border: 1px solid $white;
+  border-radius: 10px;
+  background: #a439314d;
+  backdrop-filter: blur(8px);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
+}
+
+.aboutTitle {
+  @include fontStyles(normal, 800, 34px);
+
+  margin: 40px 0 35px 0;
+  line-height: 35px;
+}
+
+.aboutPara {
+  @include fontStyles(normal, 300, 17px);
+
+  margin-bottom: 50px;
+  line-height: 24px;
+}
+
+
+.favoriteGamesList {
+  @include flex(row, space-between, normal, nowrap);
+
+  max-width: 1500px;
+  width: 100%;
+  list-style: none;
+}
+
+
+.favoriteGamesName {
+  @include fontStyles(normal, 800, 16px);
+
+  padding: 0 15px;
+  min-height: 25px;
+  padding-top: 3px;
+  background: $searchBarPrimaryColor;
+  border: 1px solid #000000;
+  color: $favoriteGameTextColor;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  text-align: center;
+  line-height: 24px;
+  transition: all 0.55s ease-in-out;
+}
+
+.gameImage {
+  @include flex(column, center, center, nowrap);
+
+  &:hover > .favoriteGamesName {
+    color: $hoverPrimaryColor;
+  }
+
+  &:focus {
+    color: $hoverPrimaryColor;
+  }
+}
+
+.gameImgWrapper {
+  @include flex(row, center, center, nowrap);
+
+  margin-bottom: 40px;
+  width: 240px;
+  height: 240px;
+}

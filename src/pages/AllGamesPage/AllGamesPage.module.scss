@@ -1,0 +1,31 @@
+@import "../../styles/mixins.scss";
+@import "../../styles/variables.scss";
+
+.container {
+  @include flex(row, center, center, wrap);
+}
+
+.gamesList {
+  @include flex(row, space-around, center, wrap);
+  list-style: none;
+  width: 100%;
+}
+
+.gameListItem {
+  max-width: 120px;
+  width: 100%;
+}
+
+.gameName {
+  @include fontStyles(normal, 800, 16px);
+
+  min-height: 25px;
+  background: $searchBarPrimaryColor;
+  border: 1px solid #000000;
+  color: $favoriteGameTextColor;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  text-align: center;
+  line-height: 24px;
+  transition: all 0.55s ease-in-out;
+}

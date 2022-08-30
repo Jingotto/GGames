@@ -1,0 +1,15 @@
+@import "../../styles/mixins.scss";
+@import "../../styles/variables.scss";
+
+.layoutWrapper {
+    @include flex(column, center, center, nowrap);
+}
+
+.wrapper {
+  position: relative;
+  max-width: 1200px;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  padding-bottom: 200px;
+}

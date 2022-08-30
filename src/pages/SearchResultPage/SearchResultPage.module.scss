@@ -1,0 +1,19 @@
+@import "../../styles/mixins.scss";
+@import "../../styles/variables.scss";
+
+.resultEmptyMessage {
+  @include flex(row, center, center, nowrap);
+    
+  @include fontStyles(normal, 800, 35px);
+
+  color: $mainTextColor;
+}
+
+.gamesListItem {
+  list-style: none;
+}
+
+.gamesListItemLink {
+  text-transform: uppercase;
+  color: $mainTextColor;
+}

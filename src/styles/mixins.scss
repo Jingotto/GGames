@@ -1,0 +1,99 @@
+@use "sass:list";
+@import "./variables.scss";
+
+@mixin flex($flex-direction, $justify-content, $align-items, $flex-wrap) {
+  display: flex;
+  flex-direction: $flex-direction;
+  justify-content: $justify-content;
+  align-items: $align-items;
+  flex-wrap: $flex-wrap;
+}
+
+@mixin inlineFlex($flex-direction, $justify-content, $align-items, $flex-wrap) {
+  display: inline-flex;
+  flex-direction: $flex-direction;
+  justify-content: $justify-content;
+  align-items: $align-items;
+  flex-wrap: $flex-wrap;
+}
+
+@mixin fontStyles($fontStyle, $fontWeight, $fontSize) {
+  font-family: "Montserrat", sans-serif;
+  font-style: $fontStyle;
+  font-weight: $fontWeight;
+  font-size: $fontSize;
+}
+
+@mixin fontStylesRoboto($fontStyle, $fontWeight, $fontSize) {
+  font-family: "Roboto", sans-serif;
+  font-style: $fontStyle;
+  font-weight: $fontWeight;
+  font-size: $fontSize;
+}
+
+
+@mixin ulReset() {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin btnReset() {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+@mixin inputReset() {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+@mixin fontVerlag($fontSize, $fontWeight) {
+  font-family: "Verlag", sans-serif;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+}
+
+@mixin fontRaleway($fontSize, $fontWeight) {
+  font-family: "Raleway", sans-serif;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+}
+
+@mixin colorizeItems($path, $colorsList, $count) {
+  @for $i from 0 through $count {
+    #{$path}:nth-child(#{$count}n + #{$i + 1}) {
+      background-color: list.nth(
+        $colorsList,
+        ($i % (list.length($colorsList))) + 1
+      );
+    }
+  }
+}
+
+@mixin section() {
+  background: $white;
+  flex-direction: column;
+  padding: 1em;
+  border-radius: 12px;
+  margin: 1em 0;
+}
+
+@mixin btnResetStyle {
+  @include btnReset();
+  @include flex(row, center, center, nowrap);
+
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 14px;
+  letter-spacing: -0.777778px;
+  color: $turtleGreen;
+  transition: all $timeFast ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
